@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+  </head>
+  <body>
+    <form class="css-form" action="index.html" ng-submit="exCtrl.update(user)" method="post">
+      <p>Nome:</p><input type="text" ng-model="user.name" name="name" value="">
+      <p>Email:</p><input type="email" ng-model="user.email" name="name" value="">
+      <p>CPF:</p><input type="text" ng-model="user.cpf" name="name" value="">
+      <p>Telefone:</p><input type="text" ng-model="user.telefone" name="name" value="">
+      <p>Endereço:</p> <input type="text" ng-model="user.endereco" name="name" value="">
+      <br><br>
+      <input type="submit" name="name" value="Enviar">
+      <input type="reset" name="name" value="Resetar">
+    </form>
+  </body>
+</html>
